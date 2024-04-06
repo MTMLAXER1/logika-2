@@ -1,0 +1,54 @@
+img {
+  width: 100%;
+  max-width: 400px;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+  padding: 20px;
+}
+
+.sub-title {
+  color: orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  color: aliceblue;
+  background-color: #f58220;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px; 
+}
+
+.card-content {
+  margin-top: 16px; 
+}
+
+a.button {
+  display: inline-block;
+  background-color: blue;
+  color: aliceblue;
+  padding: 8px 16px; 
+  border-radius: 12px;
+  text-decoration: none;
+  margin-top: 16px;
+}
